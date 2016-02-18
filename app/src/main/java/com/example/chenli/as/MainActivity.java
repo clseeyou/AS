@@ -25,6 +25,8 @@ public class MainActivity extends ActionBarActivity {
         new UserTest().getName();
 
         new AsyncHttpClient();
+
+        new Object();
     }
 
     @Override
