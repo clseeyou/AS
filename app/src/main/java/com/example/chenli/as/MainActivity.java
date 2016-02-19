@@ -2,6 +2,7 @@ package com.example.chenli.as;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -27,8 +28,11 @@ public class MainActivity extends ActionBarActivity {
         new AsyncHttpClient();
 
         new Object();
-        
-        new String("test");
+
+        String str = "test";
+        Log.d("tag", str);
+
+        Log.d("tag", str);
     }
 
     @Override
